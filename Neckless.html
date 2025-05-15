@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Necklace Collection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f8f8f8;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .product-card h3 {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .product-card p {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #b8860b;
+      margin-bottom: 10px;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      padding: 8px 16px;
+      margin-bottom: 15px;
+      background-color: #b8860b;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: #a3740c;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align:center; color: #333;">Our Necklace Collection</h1>
+
+  <div class="product-grid">
+
+    <!-- 20 Necklace Products -->
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n1.webp" alt="Necklace 1">
+      <h3>Diamond Pendant</h3>
+      <p>18K White Gold</p>
+      <div class="price">18,499</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n2.jpg" alt="Necklace 2">
+      <h3>Heart-Shaped Locket</h3>
+      <p>Rose Gold</p>
+      <div class="price">30,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n3.jpg" alt="Necklace 3">
+      <h3>Emerald Stone Nacklece</h3>
+      <p>Emerald Stone</p>
+      <div class="price">2.5,00,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n4.webp" alt="Necklace 4">
+      <h3>Classic Pearl Necklace</h3>
+      <p>Freshwater Pearls</p>
+      <div class="price">45,500</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n5.jpg" alt="Necklace 5">
+      <h3>Infinity Pendant</h3>
+      <p>Silver Finish</p>
+      <div class="price">35,500</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n6.jpg" alt="Necklace 6">
+      <h3>Butterfly Necklace</h3>
+      <p>Colorful Gems</p>
+      <div class="price">3500</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n7.jpg" alt="Necklace 7">
+      <h3>Luxury Choker</h3>
+      <p>Black Velvet</p>
+      <div class="price">45,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n8.webp" alt="Necklace 8">
+      <h3>Royal Blue Sapphire</h3>
+      <p>Sapphire Gem</p>
+      <div class="price">2,00,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n9.webp" alt="Necklace 9">
+      <h3>Vintage Chain</h3>
+      <p>Antique Gold</p>
+      <div class="price">80,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\nc10.jpeg" alt="Nacklece 10">
+      <p>Simple Design</p>
+      <div class="price">55,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Another 10 necklaces -->
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n11.webp" alt="Necklace 11">
+      <h3>Flower Pendant</h3>
+      <p>Delicate Style</p>
+      <div class="price">10,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n12.webp" alt="Necklace 12">
+      <h3>Three Stone Necklace</h3>
+      <p>Mixed Gems</p>
+      <div class="price">6,800</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n13.png" alt="Necklace 13">
+      <h3>Cross Pendant</h3>
+      <p>Silver Sterling</p>
+      <div class="price">44,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n14.webp" alt="Necklace 14">
+      <h3>Sun & Moon Necklace</h3>
+      <p>Celestial Design</p>
+      <div class="price">39,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n15.webp" alt="Necklace 15">
+      <h3>Modern Circle Necklace</h3>
+      <p>Geometric Style</p>
+      <div class="price">17,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n16.jpg" alt="Necklace 16">
+      <h3>Opal Stone Necklace</h3>
+      <p>Natural Opal</p>
+      <div class="price">13,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n17.webp" alt="Necklace 17">
+      <h3>Gold Name Necklace</h3>
+      <p>Custom Name</p>
+      <div class="price">11,000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\photo\n18.avif" alt="Necklace 18">
+      <h3>Feather Charm Necklace</h3>
+      <p>Tribal Design</p>
+      <div class="price">5000</div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
