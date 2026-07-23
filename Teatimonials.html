@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testimonials with Images</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      margin: 0;
+      padding: 0;
+    }
+
+    .testimonial-section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+      background: #fff;
+    }
+
+    .testimonial-section h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .testimonial-card {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .testimonial-card p {
+      font-style: italic;
+      color: #555;
+      margin: 15px 0;
+    }
+
+    .testimonial-card h4 {
+      margin: 10px 0 0;
+      color: #333;
+    }
+
+    .testimonial-card span {
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      .testimonial-section {
+        padding: 20px 10px;
+      }
+    }
+    .testimonial-form-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.testimonial-form-section h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonial-form input,
+.testimonial-form textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.testimonial-form button {
+  background: #c29a5b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.testimonial-form button:hover {
+  background: #a88242;
+}
+  </style>
+</head>
+<body>
+  <section class="testimonial-section">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\Product\z.jpg" alt="Client 1" />
+        <p>"Amazing designs and great quality. Will definitely order again!"</p>
+        <h4>Nitya</h4>
+        <span>Customer</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\Product\x.jpg" alt="Client 2" />
+        <p>"The earrings were just as shown in the picture. Loved the packaging too!"</p>
+        <h4>Ravi</h4>
+        <span>Verified Buyer</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="C:\Users\Lenovo\OneDrive\Desktop\project web\Product\V.jpg" alt="Client 3" />
+        <p>"Fast delivery and beautiful craftsmanship. Highly recommended."</p>
+        <h4>amit </h4>
+        <span>Happy Client</span>
+      </div>
+    </div>
+    <section class="testimonial-form-section">
+  <h3>Submit Your Testimonial</h3>
+  <form class="testimonial-form" action="#" method="post">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="text" name="title" placeholder="Your Role (e.g. Customer)" required />
+    <textarea name="message" placeholder="Write your testimonial here..." required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+  </section>
+</body>
+</html>

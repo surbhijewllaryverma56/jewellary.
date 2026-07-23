@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+ <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jewelry Sign Up</title>
+</head>
+<style>
+    
+    /* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f6f6f6;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sign Up Form */
+.signup-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #333;
+}
+
+.form-box p {
+  text-align: center;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #d4af37; /* Gold for jewelry */
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c29e2b;
+}
+
+.bottom-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bottom-text a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+<body>
+
+<div class="signup-container">
+  <div class="form-box">
+    <h2>Create Account</h2>
+    <p>Join our jewelry family</p>
+    
+    <form id="signup-form">
+      <div class="input-group">
+        <input type="text" required placeholder="Full Name">
+      </div>
+      <div class="input-group">
+        <input type="email" required placeholder="Email">
+      </div>
+      <div class="input-group">
+        <input type="password" required placeholder="Password">
+      </div>
+      <div class="input-group">
+        <input type="password" required placeholder="Confirm Password">
+      </div>
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+
+    <div class="bottom-text">
+      <p>Already have an account? <a href="signup.html">Sign In</a></p>
+    </div>
+  </div>
+</div>
+
+<script src="signup.js"></script>
+</body>
+</html>

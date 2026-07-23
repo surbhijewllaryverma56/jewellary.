@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jewelry Categories Full Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+    }
+    .category-section {
+      margin-bottom: 60px;
+    }
+    .category-section h2 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 20px;
+      border-left: 5px solid crimson;
+      padding-left: 10px;
+    }
+    .products-row {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: 20px;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 10px;
+    }
+    .product-card {
+      flex: 0 0 auto;
+      width: 220px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      scroll-snap-align: start;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-info {
+      padding: 15px;
+      text-align: center;
+    }
+    .product-info h3 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+    .product-info p {
+      margin: 0;
+      color: #777;
+      font-size: 15px;
+    }
+    .product-info button {
+      margin-top: 10px;
+      background: black;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+    .product-info button:hover {
+      background: crimson;
+    }
+    .badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: crimson;
+      color: white;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .products-row::-webkit-scrollbar {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      .product-card {
+        width: 170px;
+      }
+      .product-card img {
+        height: 150px;
+      }
+    }
+    @media (max-width: 480px) {
+      .product-card {
+        width: 140px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Rings Section -->
+<section class="category-section">
+  <h2>Rings</h2>
+  <div class="products-row">
+    <!-- 10 Rings -->
+    <div class="product-card"><span class="badge">SALE</span><img src="C:\Users\Lenovo\OneDrive\Desktop\1.jpg"><div class="product-info"><h3>Diamond Ring</h3><p>1.5,00,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\2.jpg"><div class="product-info"><h3>Rose Ring</h3><p>2300</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\4.jpg"><div class="product-info"><h3>Vintage Ring</h3><p>1200</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\6.webp"><div class="product-info"><h3>Gold Ring</h3><p>45,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\7.jpg"><div class="product-info"><h3>Platinum Ring</h3><p>75,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\8.webp"><div class="product-info"><h3>Twisted Ring</h3><p>999</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\9.png"><div class="product-info"><h3>Gemstone Ring</h3><p>55,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\10.webp"><div class="product-info"><h3>Simple Band</h3><p>7000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\11.webp"><div class="product-info"><h3>Heart Ring</h3><p>3000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\12.avif"><div class="product-info"><h3>Infinity Ring</h3><p>3,200</p><button>Add to Cart</button></div></div>
+  </div>
+</section>
+
+<!-- Necklaces Section -->
+<section class="category-section">
+  <h2>Necklaces</h2>
+  <div class="products-row">
+    <!-- 10 Necklaces -->
+    <div class="product-card"><span class="badge">SALE</span><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\13.jpg"><div class="55,000"><h3>Pearl Necklace</h3><p>3000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\14.webp"><div class="product-info"><h3>Choker Necklace</h3><p>5,500</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\15.webp"><div class="product-info"><h3>Diamond Pendant</h3><p>85,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\16.jpg"><div class="product-info"><h3>Layered Necklace</h3><p>45,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\18.webp"><div class="product-info"><h3>Gold Collar</h3>7,00,000<p></p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\19.webp"><div class="product-info"><h3>Silver Chain</h3><p>35,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\20.avif"><div class="product-info"><h3>Minimalist Necklace</h3><p>1,200</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\21.webp"><div class="product-info"><h3>Emerald Pendant</h3><p>5,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\22.jpg"><div class="product-info"><h3>Luxury Necklace</h3><p>65,000</p><button>Add to Cart</button></div></div>
+  </div>
+</section>
+
+<!-- Bangles Section -->
+<section class="category-section">
+  <h2>Bangles</h2>
+  <div class="products-row">
+    <!-- 10 Bangles -->
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\23.jpg"><div class="product-info"><h3>Classic Bangle</h3><p>23,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\24.jpg"><div class="product-info"><h3>Gold Bangle</h3><p>35,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\25.webp"><div class="product-info"><h3>Silver Bangle</h3><p>45,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\28.webp"><div class="product-info"><h3>Minimalist Bangle</h3><p>1,300</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\26.webp"><div class="product-info"><h3>Twisted Bangle</h3><p>3,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\27.webp"><div class="product-info"><h3>Beaded Bangle</h3><p>850</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\29.avif"><div class="product-info"><h3>Designer Bangle</h3><p>2,300</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\30.jpg"><div class="product-info"><h3>Studded Bangle</h3><p>1100</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\31.avif"><div class="product-info"><h3>Charm Bangle</h3><p>850</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\32.jpg"><div class="product-info"><h3>Infinity Bangle</h3><p>1000</p><button>Add to Cart</button></div></div>
+  </div>
+</section>
+
+<!-- Chains Section -->
+<section class="category-section">
+  <h2>Chains</h2>
+  <div class="products-row">
+    <!-- 10 Chains -->
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\33.png"><div class="product-info"><h3>Gold Chain</h3><p>60,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\34.jpg"><div class="product-info"><h3>Silver Chain</h3><p>20,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\35.webp"><div class="product-info"><h3>Thin Chain</h3><p>80,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\36.png"><div class="product-info"><h3>Chunky Chain</h3><p>60,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\37.webp"><div class="product-info"><h3>Designer Chain</h3><p>80,500</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\38.avif"><div class="product-info"><h3>Snake Chain</h3><p>55,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\39.webp"><div class="product-info"><h3>Double Layer Chain</h3><p>85,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\40.webp"><div class="product-info"><h3>Gold Plated Chain</h3><p>75,999</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\41.jpg"><div class="product-info"><h3>Chain with Pendant</h3><p>3,500</p><button>Add to Cart</button></div></div>
+  </div>
+</section>
+
+<!-- Earrings Section -->
+<section class="category-section">
+  <h2>Earrings</h2>
+  <div class="products-row">
+    <!-- 10 Earrings -->
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\42.webp"><div class="product-info"><h3>Stud Earrings</h3><p>2,120</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\43.webp"><div class="product-info"><h3>Hoop Earrings</h3><p>940</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\44.jpg"><div class="product-info"><h3>Dangle Earrings</h3><p>390</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\46.webp"><div class="product-info"><h3>Cluster Earrings</h3><p>899</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\45.jpeg"><div class="product-info"><h3>Drop Earrings</h3><p>11,000</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\47.webp"><div class="product-info"><h3>Clip-On Earrings</h3><p>180</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\48.jpg"><div class="product-info"><h3>Threader Earrings</h3><p>3,370</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\49.webp"><div class="product-info"><h3>Ear Cuffs</h3><p>4,310</p><button>Add to Cart</button></div></div>
+    <div class="product-card"><img src="C:\Users\Lenovo\OneDrive\Desktop\project web\50.webp"><div class="product-info"><h3>Luxury Earrings</h3><p>2,400</p><button>Add to Cart</button></div></div>
+  
+  </div>
+</section>
+
+</body>
+</html>
